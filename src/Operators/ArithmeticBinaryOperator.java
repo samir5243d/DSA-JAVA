@@ -1,6 +1,6 @@
 package Operators;
 
-public class ArithmeticOperator {
+public class ArithmeticBinaryOperator {
     public static void main(String[] args) {
 
         int a=10;
