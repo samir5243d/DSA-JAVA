@@ -1,4 +1,1 @@
-package ConditionalStatements;
-
-public class IfElse {
-}
+package ConditionalStatements;public class IfElse {}
