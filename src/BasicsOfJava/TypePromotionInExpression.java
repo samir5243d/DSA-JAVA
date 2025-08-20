@@ -12,13 +12,13 @@ public class TypePromotionInExpression {
 
         // TYPE PROOMOTION ONLY HAPPENS WITH EXPRESSION
 
-        int a=10;
-        float b=20.62f;
-        long c=30;
-        double d=25;
+        int a = 10;
+        float b = 20.62f;
+        long c = 30;
+        double d = 25;
 
 
-        double ans = a+b+c+d;// all tyepes converted to double
+        double ans = a + b + c + d;// all tyepes converted to double
         System.out.println(ans);
 
 

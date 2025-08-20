@@ -31,17 +31,11 @@ public class ArithmeticUnaryOperators {
 //        POST DECREMENT 1-VALUE USE, 2- VALUE CHANGE
 //
 
-        int a=10;
-        int b= a--;
+        int a = 10;
+        int b = a--;
 
         System.out.println(a);//9
         System.out.println(b);//10
-
-
-
-
-
-
 
 
     }

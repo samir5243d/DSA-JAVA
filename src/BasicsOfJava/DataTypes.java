@@ -4,23 +4,22 @@ public class DataTypes {
     public static void main(String[] args) {
 
 
-        byte b=8;
+        byte b = 8;
         System.out.println(b);
 
-        char ch ='a';
+        char ch = 'a';
         System.out.println(ch);
 
-        boolean var= true;
+        boolean var = true;
         System.out.println(var);
 
-        double price= 10.5;
+        double price = 10.5;
         System.out.println(price);
 
         //long
         //float
-        short n=240;
+        short n = 240;
         System.out.println(n);
-
 
 
     }

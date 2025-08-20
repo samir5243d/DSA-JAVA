@@ -11,8 +11,8 @@ public class Q2DataTypesVariables {
 
         Scanner sc = new Scanner(System.in);
 
-        int side= sc.nextInt();
-        int area= side*side;
+        int side = sc.nextInt();
+        int area = side * side;
         System.out.println(area);
 
     }

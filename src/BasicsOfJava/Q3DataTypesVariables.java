@@ -7,26 +7,22 @@ package BasicsOfJava;
 import java.util.Scanner;
 
 
-
 public class Q3DataTypesVariables {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
-        float CostOfPencil= sc.nextFloat();
-        float CostOfPen= sc.nextFloat();
-        float CostOfEraser= sc.nextFloat();
+        float CostOfPencil = sc.nextFloat();
+        float CostOfPen = sc.nextFloat();
+        float CostOfEraser = sc.nextFloat();
 
-        float totalCost= CostOfPencil+CostOfPen+CostOfEraser;
+        float totalCost = CostOfPencil + CostOfPen + CostOfEraser;
 
-        System.out.println("Bill is : "+ totalCost);
+        System.out.println("Bill is : " + totalCost);
 
 //        ADD ON WITH 18% GST:
 
-        float NewtotalCost= totalCost+(0.18f*totalCost);
-        System.out.println("Bill with 18%tax : " +NewtotalCost);
-
-
-
+        float NewtotalCost = totalCost + (0.18f * totalCost);
+        System.out.println("Bill with 18%tax : " + NewtotalCost);
 
 
     }
