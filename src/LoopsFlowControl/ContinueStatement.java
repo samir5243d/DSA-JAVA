@@ -1,10 +1,14 @@
-//DISPLAY ALL NUMBERS ENTERED BY USER EXCEPT MULTIPLES OF 10
+
+
 
 
 package LoopsFlowControl;
+import java.util.Scanner;
 
 public class ContinueStatement {
+
     public static void main(String[] args) {
+        Scanner sc =new Scanner (System.in);
         for(int i=1; i<=5; i++){
             if (i==3){
                 continue;
