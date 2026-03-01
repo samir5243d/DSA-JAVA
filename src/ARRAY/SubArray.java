@@ -23,7 +23,7 @@ public class SubArray {
             System.out.println();
 
         }
-        System.out.println("tatal suarrays = "  + ts);
+        System.out.println("total suarrays = "  + ts);
 
     }
 
